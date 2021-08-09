@@ -77,7 +77,7 @@ docker run --publish=8888:80 --name=tdocker -tid \
   laceysanderson/drupal7dev:latest
 ```
 
-4) Provision the container including installation of the software stack including default configuration.
+5) Provision the container including installation of the software stack including default configuration.
 
 ```
 docker exec -it tdocker /app/init_scripts/startup_container.sh
